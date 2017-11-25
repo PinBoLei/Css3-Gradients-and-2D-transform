@@ -24,7 +24,7 @@ CSS3 定义了两种类型的渐变（gradients）：
 ```
 #### 浏览器支持
 表中的数字指定了完全支持该属性的第一个浏览器版本。`后边跟 -webkit-、-moz- 或 -o- 的数字指定了需加上前缀才能支持属性的第一个版本。`
-<img src="E:\H5\第四周\day807CSS渐变和2D转换\images\pic1.png"/>
+<img src="images\pic1.png"/>
 
 ## 二、线性渐变
 
@@ -148,7 +148,7 @@ background-image: -o-radial-gradient(closest-side circle at 50% 75%, rgb(220, 75
 
 background-image: radial-gradient(closest-side circle at 50% 75%, rgb(220, 75, 200),rgb(0, 0, 75));
 ```
-<img src="E:\H5\第四周\day807CSS渐变和2D转换\images\径向渐变图.jpg" >
+<img src="images\径向渐变图.jpg" >
 
 # 四、模糊
 ```
