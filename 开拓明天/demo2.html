@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			
+			.box{ width: 227px; height: 150px; border: 1px solid red; margin: 30px auto; background: url(images/anli1.png) no-repeat 0 -150px; transition: 0.5s linear;}
+			.box:hover{ background-position:0 0 ; background-color:#f7f7f7 ;}
+			.box2{ width: 200px; height: 500px; border: 1px solid red; margin: 20px auto; position: relative;}
+			.box2:hover .bounceInLeft{animation: bounceInLeft 1s;}
+			/*.box2 img{ position: absolute;top: 120px; }
+			.box2:hover img{animation: move 1s linear  infinite;}
+			@keyframes move{
+				0%{ top: 120px; opacity: 0;}
+				50%{ top: 60px; opacity: 1;}
+				100%{top: 30px; opacity: 0;}
+			}*/
+			@keyframes bounceInLeft {
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d(-3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(25px, 0, 0);
+  }
+
+  75% {
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  90% {
+    transform: translate3d(5px, 0, 0);
+  }
+
+  to {
+    transform: none;
+  }
+}
+
+.bounceInLeft {
+  
+}
+		</style>
+	</head>
+	<body>
+		<div class="box"></div>
+		<!--<div class="box2"><img src="images/top.png" class="bounceInLeft"/></div>-->
+	</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			* {
+				margin: 0; 
+				padding: 0;
+			}
+			body{
+				background-color: #cccccc;
+				background: url(img/triangles.png) repeat;
+			}
+			.container{
+				width: 805px; 
+				height: 320px;
+				overflow: hidden;
+				margin: 100px auto;
+				-webkit-box-shadow: 0 0 5px #000;
+			}
+			.container li{
+				width:160px;
+				display: block;
+				position: relative;
+				float: left;	
+				border-left: 1px solid #888;	
+				-webkit-box-shadow: 0 0 25px #000;
+				-webkit-transition: all 0.5s;
+			}
+			
+			.container ul:hover li {width: 40px;}
+			.container ul li:hover {width: 640px;}
+			.container li img {
+				display: block;
+			}
+			.image_title {
+				background: rgba(0, 0, 0, 0.5);
+				position: absolute;
+				left: 0; 
+				bottom: 0;	
+				width: 640px;	
+			}
+			.image_title a {
+				display: block;
+				color: #fff;
+				text-decoration: none;
+				padding: 20px;
+				font-size: 16px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<ul>
+				<li>
+					<div class="image_title">
+						<a href="#">KungFu Panda</a>
+					</div>
+					<a href="#">
+						<img src="img/img1.jpg">
+					</a>
+				</li>
+				 <li>
+			<div class="image_title">
+				<a href="#">Toy Story 2</a>
+			</div>
+			<a href="#">
+				<img src="img/img2.jpg">
+			</a>
+	  </li>
+		<li>
+			<div class="image_title">
+				<a href="#">Wall-E</a>
+			</div>
+			<a href="#">
+				<img src="img/img3.jpg">
+			</a>
+		</li>
+		<li>
+			<div class="image_title">
+				<a href="#">Up</a>
+			</div>
+			<a href="#">
+				<img src="img/img4.jpg">
+			</a>
+		</li>
+		<li>
+			<div class="image_title">
+				<a href="#">Cars 2</a>
+			</div>
+			<a href="#">
+				<img src="img/img5.jpg">
+			</a>
+		</li>
+			</ul>
+		</div>
+	</body>
+</html>
